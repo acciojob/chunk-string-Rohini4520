@@ -2,7 +2,7 @@ function stringChop(str, size) {
   // your code here
 	if(!str) return[];
 	let chunks = [];
-		for(let i =0; i< chunks.size;i= i+size){
+		for(let i =0; i< chunks.size;i+=size){
 			let subStr = str.slice(i, i+size);
 			chunks.push(subStr);
 		}
